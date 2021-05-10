@@ -1,0 +1,40 @@
+:root{
+  --theme:#07AB80;
+  --theme-dark:#5B636E;
+  --theme-grey:#8F8E98;
+  --theme-light:#E5E5E5;
+}
+
+
+@media (min-width:768px){
+  .bleed{
+    position: absolute;
+    bottom: -6rem;
+    left: 12rem;
+    margin-bottom: 0;
+  }
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+
+.recycle{
+  background-image: url(https://st4.depositphotos.com/12985790/19950/i/600/depositphotos_199509362-stock-photo-cropped-view-volunteers-recycling-box.jpg);
+  background-size: cover;
+  display: flex;
+}
+.bg-theme{
+  background-color: var(--theme);
+}
+.text-greenish{
+  color: #07AB80;
+}
+.text-darkish{
+  color: #5B636E;
+}
+.text-greyish{
+  color: #8F8E98;
+}
+
